@@ -17,7 +17,7 @@ Joyas de la anti-programación. Aquí algunas:
 
 * [sobre-cmake](sobre-cmake/README.md): Lo que no querías saber sobre
   [toolchains](https://es.wikipedia.org/wiki/Cadena_de_herramientas).
-* [hola-mundo](hola-mundo/README.md): Ejemplo infaltable en toda
+* [hola-mundo](hola-mundo/): Ejemplo infaltable en toda
   vitrina del código.
 
 ## Temas
