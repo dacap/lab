@@ -20,7 +20,7 @@ La idea general es la siguiente:
 1. Existe una carpeta de código fuente: la carpeta que tiene el
    `CMakeLists.txt` y los archivos `.cpp`, generalmente es tu repositorio Git
    —también llamado [*source directory*](https://cmake.org/cmake/help/latest/variable/CMAKE_SOURCE_DIR.html).
-2. Existe "la cloaca": que es donde todo la salida de *CMake* se acumula,
+2. Existe "la cloaca": que es donde toda la salida de *CMake* se acumula,
    y donde quedarán los `.exe` que podemos finalmente ejecutar —esta
    carpeta se llama también *build directory*,
    o [*binary directory*](https://cmake.org/cmake/help/latest/variable/CMAKE_BINARY_DIR.html).
