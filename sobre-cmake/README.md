@@ -28,10 +28,10 @@ La idea general es la siguiente:
 Generalmente ejecutaremos *CMake* en el directorio que actúa de
 cloaca, pasándole como argumento el *source directory*. Por ejemplo:
 
-    C:\cloaca>cmake -G Ninja C:\directorio-con-mi-magnus-opus-del-codigo
+    C:\cloaca>cmake -G Ninja C:\directorio-con-mi-magnum-opus-del-codigo
 
 En ese caso 👆 la carpeta
-`C:\directorio-con-mi-magnus-opus-del-codigo` debería contener nuestro
+`C:\directorio-con-mi-magnum-opus-del-codigo` debería contener nuestro
 proyecto con un archivo `CMakeLists.txt`, y en la carpeta `C:\cloaca`
 se crearán millones de archivos inútiles, para luego, una vez que
 *CMake* hace su trabajo, podamos ejecutar otro programa (en este caso *ninja*,
