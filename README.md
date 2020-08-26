@@ -15,10 +15,11 @@ puedes copiar lo que necesites y pegarlo en tu proyecto sin problemas.
 
 Joyas de la anti-programación. Aquí algunas:
 
-* [sobre-cmake](sobre-cmake/README.md): Lo que no querías saber sobre
+* [sobre-cmake](sobre-cmake/README.md#readme): Lo que no querías saber sobre
   [toolchains](https://es.wikipedia.org/wiki/Cadena_de_herramientas).
-* [hola-mundo](hola-mundo/): Ejemplo infaltable en toda
+* [hola-mundo](hola-mundo/README.md#readme): Ejemplo infaltable en toda
   vitrina del código.
+* [operadores](operadores/README.md#readme): Introducción vergonzosamente escueta a la sobrecarga de operadores.
 
 ## Temas
 
