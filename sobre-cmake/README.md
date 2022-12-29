@@ -45,3 +45,13 @@ Como alternativa, podríamos compilar con el mismo *CMake*:
 
 Esto compilará el proyecto, haciendo que *CMake* llame al compilador
 por nosotros.
+
+## El archivo CMakeLists.txt
+
+El archivo `CMakeLists.txt` puede ser tan sencillo o tan complejo como
+lo que necesitemos compilar. Si se trata de un simple `hola.cpp` para
+generar un ejecutable de consola, podríamos hacer un `CMakeLists.txt`:
+
+    add_executable(hola hola.cpp)
+
+Y eso es todo.
