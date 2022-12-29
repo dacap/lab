@@ -25,16 +25,16 @@ La idea general es la siguiente:
    carpeta se llama también *build directory*,
    o [*binary directory*](https://cmake.org/cmake/help/latest/variable/CMAKE_BINARY_DIR.html).
 
-Generalmente ejecutaremos *CMake* en el directorio que actúa de
-cloaca, pasándole como argumento el *source directory*. Por ejemplo:
+Generalmente ejecutaremos *CMake* con el argumento `-B <build-directory>`
+y `-S <source directory>`. Por ejemplo:
 
-    C:\cloaca>cmake -G Ninja C:\directorio-con-mi-magnum-opus-del-codigo
+    C:\temp>cmake -G Ninja -S C:\temp\codigo-de-mi-proyecto -B C:\temp\cloaca
 
 En ese caso 👆 la carpeta
-`C:\directorio-con-mi-magnum-opus-del-codigo` debería contener nuestro
-proyecto con un archivo `CMakeLists.txt`, y en la carpeta `C:\cloaca`
+`C:\temp\codigo-de-mi-proyecto` debería contener nuestro
+proyecto con un archivo `CMakeLists.txt`, y en la carpeta `C:\temp\cloaca`
 se crearán millones de archivos inútiles, para luego, una vez que
-*CMake* hace su trabajo, podamos ejecutar otro programa (en este caso *ninja*,
+*CMake* haga su trabajo, podamos ejecutar otro programa (en este caso *ninja*,
 ya que indicamos `-G Ninja`) que interprete todo eso y finalmente llame al
 compilador, para obtener un archivo ejecutable, nuestro `.exe`, el
 único archivo de interés en todo este enredo.
