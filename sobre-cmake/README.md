@@ -38,3 +38,10 @@ se crearán millones de archivos inútiles, para luego, una vez que
 ya que indicamos `-G Ninja`) que interprete todo eso y finalmente llame al
 compilador, para obtener un archivo ejecutable, nuestro `.exe`, el
 único archivo de interés en todo este enredo.
+
+Como alternativa, podríamos compilar con el mismo *CMake*:
+
+    C:\temp>cmake --build C:\temp\cloaca
+
+Esto compilará el proyecto, haciendo que *CMake* llame al compilador
+por nosotros.
